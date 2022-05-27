@@ -17,7 +17,7 @@ public class exercicio05 {
         double valorPeca2 = sc.nextDouble();
         
         double TOTAL = quantidadePeca1 * valorPeca1 + quantidadePeca2 * valorPeca2;
-                System.out.printf("VALOR A PAGAR: R$ %.2F", TOTAL);
+                System.out.printf("VALOR A PAGAR: R$ %.2f%n", TOTAL);
         
 
         sc.close();
